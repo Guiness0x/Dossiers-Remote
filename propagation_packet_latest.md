@@ -1,6 +1,6 @@
 ---
 title: "Propagation Packet — Internal Sync"
-date: "2025-10-17T00:08:27Z"
+date: "2025-10-27T23:50:58Z"
 host: "0sh0watt"
 ---
 
@@ -8,7 +8,7 @@ host: "0sh0watt"
 
 ## Summary
 - Host: **0sh0watt**
-- Generated (UTC): **2025-10-17T00:08:27Z**
+- Generated (UTC): **2025-10-27T23:50:58Z**
 
 ## Collected Nodes
 | Component | Path | Status |
@@ -16,7 +16,7 @@ host: "0sh0watt"
 | System Dashboard | /home/guiness/Dossiers/dashboard/system_status.md | 🟢 |
 | Global Telemetry | /home/guiness/Dossiers/dashboard/telemetry/global_telemetry.md | 🟢 |
 | Vault Node Log | /home/guiness/Dossiers/vault/public/status.md | 🟢 |
-| Store Node Log | /home/guiness/Dossiers/store/public/status.md | 🟢 |
+| Store Node Log | /home/guiness/Dossiers/store/public/status.md | 🔴 |
 
 ---
 
@@ -24,19 +24,19 @@ host: "0sh0watt"
 ```markdown
 ---
 title: "Unified Ops Dashboard"
-date: "2025-10-17T00:08:17Z"
+date: "2025-10-27T23:50:47Z"
 ---
 
 # 🩸 Unified Operations Dashboard
 
 ## Heartbeat
-**System Status:** 🟢 OK — all nodes operational
+**System Status:** 🟡 Degraded — partial node activity
 
 ## Telemetry
 🔴 Vercel: Offline
 
 ## Summary
-- Generated (UTC): **2025-10-17T00:08:17Z**
+- Generated (UTC): **2025-10-27T23:50:47Z**
 
 ### Vault Node
 
@@ -54,17 +54,7 @@ Generated automatically by `update_status.sh`
 
 ### Store Node
 
----
-title: "System Status — Store"
-date: "2025-10-14T01:44:17Z"
----
-
-## Store Build Summary
-- Build Time (UTC): **2025-10-14T01:44:17Z**
-- Total Markdown Files: **1**
-- Status: ✅ Successful
-
-Generated automatically by `update_status.sh`
+_Store node inactive — no status file found._
 
 ### Deployment Telemetry (Raw)
 
@@ -78,20 +68,20 @@ _No telemetry data available._
 ```markdown
 ---
 title: "Global Telemetry Overview"
-date: "2025-10-17T00:08:24Z"
+date: "2025-10-27T23:50:57Z"
 ---
 
 # 🩸 Global Telemetry Overview
 
 ## Summary
 - Host: **0sh0watt**
-- Generated (UTC): **2025-10-17T00:08:24Z**
+- Generated (UTC): **2025-10-27T23:50:57Z**
 
 ## Node Activity
 | Node  | Status  |
 |-------|----------|
 | Vault | 🟢 Active |
-| Store | 🟢 Active |
+| Store | 🔴 Offline |
 
 ## External Telemetry
 | Source | Mode | URL | Status |
